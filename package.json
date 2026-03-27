@@ -1,0 +1,9 @@
+{
+  "name": "opencli-plugin-xyboss",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "OpenCLI plugin: 星云BOSS相关",
+  "peerDependencies": {
+    "@jackwener/opencli": ">=1.0.0"
+  }
+}
