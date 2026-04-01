@@ -25,7 +25,10 @@ opencli plugin uninstall iyouke
 
 ```bash
 # 查询AI分析支持的指标列表
-opencli iyouke ai-analysis-metric-index --indexName 
+opencli iyouke ai-analysis-metric-index --indexName ''
+
+# 依据指标ID查询具体业务数据
+opencli iyouke ai-analysis-search-data --indexId 1
 
 ```
 
