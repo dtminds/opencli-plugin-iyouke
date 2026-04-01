@@ -18,7 +18,7 @@ opencli plugin update iyouke
 ## Uninstall
 
 ```bash
-opencli plugin uninstall github:dtminds/opencli-plugin-iyouke
+opencli plugin uninstall iyouke
 ```
 
 ## Usage
