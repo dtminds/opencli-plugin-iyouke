@@ -51,7 +51,7 @@ cli({
           const match = document.cookie.match(new RegExp('(^| )' + name + '=([^;]+)'));
           return match ? decodeURIComponent(match[2]) : '';
         };
-        const token = getCookie('access_token') || '';
+        const token = getCookie('token') || '';
         const body = ${JSON.stringify(body)};
         const res = await fetch('https://smp-api.iyouke.com/cdp-new/api/ai/intellect/aiAnalysisMetricIndex', {
           method: 'POST',
