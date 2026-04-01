@@ -57,7 +57,7 @@ cli({
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
-            'Authorization': token,
+            'Authorization': 'Bearer ' + decodeURIComponent(token)
           },
           body: JSON.stringify(body),
         });
