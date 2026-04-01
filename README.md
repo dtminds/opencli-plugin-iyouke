@@ -9,6 +9,18 @@
 opencli plugin install github:dtminds/opencli-plugin-iyouke
 ```
 
+## Update
+
+```bash
+opencli plugin update iyouke
+```
+
+## Uninstall
+
+```bash
+opencli plugin uninstall github:dtminds/opencli-plugin-iyouke
+```
+
 ## Usage
 
 ```bash
@@ -26,7 +38,7 @@ This is a **TS adapter plugin** that internally calls multiple `opencli iyouke` 
 ## Plugin Layout
 
 ```
-opencli-plugin-xyboss/
+opencli-plugin-iyouke/
 ├── package.json     # peerDependency on @jackwener/opencli
 ├── seach.ts     # TS adapter
 └── README.md

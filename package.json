@@ -1,8 +1,8 @@
 {
-  "name": "opencli-plugin-xyboss",
+  "name": "opencli-plugin-iyouke",
   "version": "0.1.0",
   "type": "module",
-  "description": "OpenCLI plugin: 星云BOSS相关",
+  "description": "OpenCLI plugin: 星云有客相关",
   "peerDependencies": {
     "@jackwener/opencli": ">=1.0.0"
   }
