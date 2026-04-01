@@ -24,11 +24,9 @@ opencli plugin uninstall iyouke
 ## Usage
 
 ```bash
-# 搜索租户信息
-opencli iyouke search --companyAlias 一头牛
+# 查询AI分析支持的指标列表
+opencli iyouke ai-analysis-metric-index --indexName 
 
-# 获取跟进记录列表
-opencli iyouke follow-record --uid 40
 ```
 
 ## How It Works
@@ -40,7 +38,7 @@ This is a **TS adapter plugin** that internally calls multiple `opencli iyouke` 
 ```
 opencli-plugin-iyouke/
 ├── package.json     # peerDependency on @jackwener/opencli
-├── seach.ts     # TS adapter
+├── ai-analysis-metric-index.ts     # TS adapter
 └── README.md
 ```
 
